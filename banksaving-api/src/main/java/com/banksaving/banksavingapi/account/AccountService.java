@@ -18,10 +18,7 @@ public class AccountService {
 
     @Autowired
     private CustomerRepository customerRepo;
-
-    @Autowired
-    private AccountRepository accountRepo;
-
+    
     @Autowired
     private DepositoTypeRepository depositoRepo;
 
